@@ -13,7 +13,8 @@ let package = Package(
             targets: ["TUICore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0")
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
+        .package(url: "https://github.com/Cologne88/TXIMSDK_Plus_iOS.git",from: "8.2.6325"),
       ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

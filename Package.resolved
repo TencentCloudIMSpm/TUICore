@@ -1,5 +1,5 @@
 {
-  "originHash" : "e5df13b389a505cdaf6e1cfb091642a6af5d9a9549c699cba60e0b7bcf541df6",
+  "originHash" : "6991c032159875bc7cc04a88802b5e56111647cbb17cbe1e8cf561cf9ab327fc",
   "pins" : [
     {
       "identity" : "sdwebimage",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "8a1be70a625683bc04d6903e2935bf23f3c6d609",
         "version" : "5.19.7"
+      }
+    },
+    {
+      "identity" : "tximsdk_plus_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Cologne88/TXIMSDK_Plus_iOS.git",
+      "state" : {
+        "revision" : "ba20671d643ccdddcc3f1411aa00a0fee61a95f8",
+        "version" : "8.2.6325"
       }
     }
   ],
