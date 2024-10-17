@@ -6,7 +6,8 @@
 //  Copyright © 2018 Tencent. All rights reserved.
 //
 
-#import <SDWebImage/SDImageCoderHelper.h>
+//#import <SDWebImage/SDImageCoderHelper.h>
+@import SDWebImage;
 #import "TUILogin.h"
 #import "TUIGlobalization.h"
 #import "TUIWeakProxy.h"

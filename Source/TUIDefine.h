@@ -5,7 +5,7 @@
 #ifndef THeader_h
 #define THeader_h
 
-#import <SDWebImage/SDWebImage.h>
+//#import <SDWebImage/SDWebImage.h>
 #import "NSDictionary+TUISafe.h"
 #import "TUICommonModel.h"
 #import "TUIConfig.h"
@@ -18,6 +18,7 @@
 #import "UIView+TUIToast.h"
 #import "NSString+TUIUtil.h"
 @import ImSDK_Plus;
+@import SDWebImage;
 
 #define tui_weakify(object) \
     autoreleasepool {}         \
