@@ -20,6 +20,7 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(name: "TUICore",
+                dependencies: ["SDWebImage","TXIMSDK_Plus_iOS"],
                 resources: [.copy("Resources/TUICore.bundle"),
                             .copy("Resources/TUICoreTheme_Minimalist.bundle"),
                             .copy("Resources/TUICoreTheme.bundle"),
