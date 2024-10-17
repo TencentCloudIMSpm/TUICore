@@ -21,8 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(name: "TUICore",
                 dependencies: ["SDWebImage","TXIMSDK_Plus_iOS"],
-                resources: [.copy("Resources/*.bundle")
-                           ]
-               )
+                resources: [.copy("Resources")]
+               ),
     ]
 )
